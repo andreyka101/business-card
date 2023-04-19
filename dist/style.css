@@ -2,6 +2,9 @@
   width: 85cqi;
   margin: auto;
 }
+.links a {
+  text-decoration: none;
+}
 .img {
   background: url("1649114985_2-vsegda-pomnim-com-p-tigr-v-prirode-foto-2.jpg") center / cover;
   margin: auto;
