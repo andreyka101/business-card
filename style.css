@@ -10,14 +10,40 @@ body {
 .links a {
   text-decoration: none;
   border: #6246ea solid 3px;
-  padding: 20px;
+  padding: 14px;
   background-color: rgba(0, 0, 0, 0);
-  border-radius: 10%;
+  border-radius: 10px;
   color: #25D366;
+}
+.links a:hover {
+  background-color: #075E54;
+}
+.links span {
+  border: #2b2c34 solid 3px;
+  padding: 14px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  color: #2b2c34;
+}
+.links .flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 16px;
+}
+.links .flex a:nth-child(2) {
+  color: #229ED9;
+}
+.links .flex a:nth-child(2):hover {
+  background-color: #124963;
+}
+.links h2 {
+  display: flex;
+  justify-content: center;
 }
 .img {
   background: url("1649114985_2-vsegda-pomnim-com-p-tigr-v-prirode-foto-2.jpg") center / cover;
   margin: auto;
+  border-radius: 10px;
   width: 69cqi;
   height: 35cqi;
 }
