@@ -2,8 +2,18 @@
   width: 85cqi;
   margin: auto;
 }
+body {
+  background-color: #fffffe;
+  color: #2b2c34;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .links a {
   text-decoration: none;
+  border: #6246ea solid 3px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10%;
+  color: #25D366;
 }
 .img {
   background: url("1649114985_2-vsegda-pomnim-com-p-tigr-v-prirode-foto-2.jpg") center / cover;
