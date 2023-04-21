@@ -6,6 +6,7 @@ body{
   background-color: #fffffe;
   color:#2b2c34;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0%;
 }
 .links{
   a{
@@ -29,6 +30,7 @@ body{
   .flex{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 16px;
     a:nth-child(2){
       color: #229ED9;
@@ -48,4 +50,53 @@ body{
   border-radius: 10px;
   width: 69cqi;
   height: 35cqi;
+}
+
+
+.myLink{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3f3f3f;
+  width: 100%;
+  color:#f0f0f0;
+  a{
+    text-decoration: none;
+    padding: 10px;
+    color:#c0c0c0;
+  }
+  a:hover{
+    color:#9a9a9a;
+  }
+  div:nth-child(2){
+    display: flex;
+  }
+}
+@media screen and (max-width:880px){
+  .myLink div:nth-child(2){
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:470px){
+  .myLink a{
+    padding: 3px !important;
+  }
+}
+
+
+.statementExtract{
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.schedule{
+  h3{
+    margin-top: 20px;
+  }
+  display: inline-block;
+  padding: 20px;
+  padding-top: 0%;
+  border-radius: 10px;
+  background-color: #e45858;
+  margin-left: 95px;
+  margin-bottom: 25px;
 }
