@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "business card",
+			"path": "."
+		},
+		{
+			"name": "tmvinograd",
+			"path": "../../../Users/andrej/Downloads/tmvinograd"
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": false,
+		"liveServer.settings.multiRootWorkspaceName": "business card"
+	}
+}
