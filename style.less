@@ -60,6 +60,15 @@ body{
 }
 
 
+.version{
+  position: absolute;
+  z-index: 50;
+  bottom: 0px;
+}
+
+
+// ////////////////////////////////////////////////
+
 .myLink{
   display: flex;
   align-items: center;
@@ -68,9 +77,14 @@ body{
   width: 100%;
   color:#f0f0f0;
   a{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     padding: 10px;
+    margin: 10px;
     color:#c0c0c0;
+    background-color: #505050;
+    border-radius: 24px;
   }
   a:hover{
     color:#9a9a9a;
@@ -86,7 +100,7 @@ body{
 }
 @media screen and (max-width:470px){
   .myLink a{
-    padding: 3px !important;
+    padding: 13px !important;
   }
 }
 
@@ -105,6 +119,8 @@ body{
     height: 56cqi;
   }
 }
+
+// /////////////////////////////////////////////////////////////////
 
 
 .statementExtract{
