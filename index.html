@@ -93,14 +93,14 @@
       </div>
     </footer>
   </div>
-  <input type="text" value="Привет мир" id="myInput">
+  <input type="text" value="ааааа" id="myInput">
 <button onclick="myFunction()">Скопировать текст</button>
 
 <p>Метод document.execCommand() не поддерживается в IE8 и более ранних версиях.</p>
 
 <script>
 function myFunction() {
-  var copyText = "rrgrgrg";
+  const copyText = document.getElementById("myInput");
   copyText.select();
   copyText.setSelectionRange(0, 99999)
   document.execCommand("copy");
