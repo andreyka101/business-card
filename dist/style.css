@@ -16,9 +16,33 @@ input {
   display: none;
 }
 .pursuit {
+  margin-top: 30px;
+  position: sticky;
+  top: 0px;
+  background: #870505cb;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  justify-content: flex-end;
+  padding: 8px;
+}
+.pursuit div {
+  display: flex;
+  align-items: center;
+}
+.pursuit div button {
+  color: white !important;
+  display: flex;
+  align-items: center;
+  border: white solid 3px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  color: #2b2c34;
+  margin: 5px;
+}
+.pursuit div button:hover {
+  background-color: #ffffff86;
 }
 .pursuit .me {
   text-decoration: none;
@@ -47,24 +71,23 @@ input {
 .links a:hover {
   background-color: #075E54;
 }
-.links span {
-  border: #2b2c34 solid 3px;
-  padding: 14px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  color: #2b2c34;
-  margin: 5px;
-}
 .links .flex {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 13px;
 }
-.links .flex a:nth-child(2) {
+.links .flex a:nth-child(1) {
+  color: #6246ea;
+  font-size: 18px;
+}
+.links .flex a:nth-child(1):hover {
+  background-color: #2b2063;
+}
+.links .flex a:nth-child(3) {
   color: #229ED9;
 }
-.links .flex a:nth-child(2):hover {
+.links .flex a:nth-child(3):hover {
   background-color: #124963;
 }
 .links h2 {
@@ -148,6 +171,7 @@ input {
   margin-top: 20px;
 }
 .h1 {
+  margin-top: 0%;
   padding: 13px;
   display: flex;
   justify-content: center;
