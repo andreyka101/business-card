@@ -112,9 +112,44 @@ input {
   padding: 7px;
   border-radius: 6px;
   color: white;
+  margin-left: 3cqi;
 }
 .reviews:hover {
   background-color: #5c01d4;
+}
+.blur {
+  margin-left: 3cqi;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #31b5d345;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+.blur p {
+  margin: 5px 0;
+}
+.blur h3 {
+  margin: 0;
+}
+.individual {
+  margin-left: 3cqi;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #2aa2dba8;
+  border-radius: 10px;
+  text-align: center;
+}
+.group {
+  margin-left: 3cqi;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #2abadba8;
+  border-radius: 10px;
+  text-align: center;
+}
+.prices {
+  display: flex;
 }
 .myLink {
   display: flex;
@@ -174,7 +209,7 @@ input {
   padding-top: 0%;
   border-radius: 10px;
   background-color: #e45858;
-  margin-left: 95px;
+  margin-left: 3cqi;
   margin-bottom: 25px;
 }
 .schedule h3 {
