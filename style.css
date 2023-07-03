@@ -98,7 +98,6 @@ input {
 .img {
   background: url(Fotoram.io.jpg) center / cover;
   margin: auto;
-  border-radius: 10px;
   width: 69cqi;
   height: 74cqi;
 }
@@ -196,6 +195,18 @@ input {
   }
 }
 @media screen and (max-width: 505px) {
+  .individual {
+    margin-left: 0px !important;
+  }
+  .reviews {
+    margin-left: 0px !important;
+  }
+  .group {
+    margin-left: 0px !important;
+  }
+  .blur {
+    margin-left: 0px !important;
+  }
   .schedule {
     margin-left: 0px !important;
   }
