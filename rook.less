@@ -7,23 +7,47 @@ body{
   background-position: top;
   color:#2b2c34;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 21px;
   margin: 0;
   .blur{
     width: 366px;
-    margin: 0 auto;
+    margin-left: 3cqi;
+    margin-top: 50px;
     padding: 10px;
-    background-color: #74747494;
-    position: relative;
-    z-index: 1;
+    background-color: #31b5d345;
+    border-radius: 10px;
+    // filter: blur(4px);
+    text-align:  center;
     div{
-      filter: blur(4px);
-      position: relative;
-      z-index: 5;
+      display: flex;
+      justify-content: center;
+      a{
+        text-decoration: none;
+        border: #6246ea solid 3px;
+        padding: 14px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        color: #6246ea;
+        margin: 5px;
+      }
+      a:hover{
+        background-color:  #2b2063;
+      }
     }
     span{
-      position: relative;
-      z-index: 5;
+      line-height: 1.5;
     }
+  }
+}
+@media screen and (max-width:760px){
+  .blur{
+    width: 266px !important;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:520px){
+  .blur{
+    width: 230px !important;
+    font-size: 19px;
   }
 }
