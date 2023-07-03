@@ -96,11 +96,18 @@ input {
   font-family: Tmvinogradoblique;
 }
 .img {
-  background: url(joki.jpg) center / cover;
+  background: url("WhatsApp Image 2023-07-01 at 01.37.05.jpeg") center / cover;
   margin: auto;
   border-radius: 10px;
   width: 69cqi;
   height: 41cqi;
+}
+.img2 {
+  background: url(MyCollages.jpg) center / cover;
+  margin: auto;
+  border-radius: 10px;
+  width: 69cqi;
+  height: 58cqi;
 }
 .version {
   color: #f0f0f0;
