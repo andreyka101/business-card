@@ -18,6 +18,7 @@ body .blur {
   background-color: #31b5d345;
   border-radius: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 body .blur div {
   display: flex;
