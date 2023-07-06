@@ -200,9 +200,6 @@ input {
   .individual {
     margin-left: 0px !important;
   }
-  .reviews {
-    margin-left: 0px !important;
-  }
   .group {
     margin-left: 0px !important;
   }
@@ -215,6 +212,12 @@ input {
   .img {
     width: 95cqi;
     height: 108cqi;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .img {
+    width: 33cqi !important;
+    height: 37cqi !important;
   }
 }
 .statementExtract {
