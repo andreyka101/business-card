@@ -96,10 +96,11 @@ input {
   font-family: Tmvinogradoblique;
 }
 .img {
-  background: url(Fotoram.io.jpg) center / cover;
+  background: url(collage.jpg) center / cover;
   margin: auto;
-  width: 54cqi;
-  height: 61cqi;
+  width: 65cqi !important;
+  height: 36cqi !important;
+  border-radius: 10px;
 }
 .version {
   color: #f0f0f0;
@@ -196,6 +197,13 @@ input {
     margin-left: 20px !important;
   }
 }
+@media screen and (max-width: 650px) {
+  .img {
+    width: 93% !important;
+    height: 51cqi !important;
+    border-radius: 0px !important;
+  }
+}
 @media screen and (max-width: 505px) {
   .individual {
     margin-left: 0px !important;
@@ -210,14 +218,14 @@ input {
     margin-left: 0px !important;
   }
   .img {
-    width: 95cqi;
-    height: 108cqi;
+    width: 99% !important;
+    height: 56cqi !important;
   }
 }
 @media screen and (min-width: 1110px) {
   .img {
-    width: 33cqi !important;
-    height: 37cqi !important;
+    width: 65cqi !important;
+    height: 36cqi !important;
   }
 }
 .statementExtract {

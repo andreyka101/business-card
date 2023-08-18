@@ -103,10 +103,11 @@ input{
   }
 }
 .img{
-  background: url(Fotoram.io.jpg) center/cover;
+  background: url(collage.jpg) center/cover;
   margin: auto;
-  width: 54cqi;
-  height: 61cqi;
+  width: 65cqi !important;
+  height: 36cqi !important;
+  border-radius: 10px;
 }
 
 
@@ -157,6 +158,7 @@ input{
   background-color: #2aa2dba8;
   border-radius: 10px;
   text-align:  center;
+  // width: 45cqi;
 }
 
 
@@ -167,10 +169,12 @@ input{
   background-color: #2abadba8;
   border-radius: 10px;
   text-align:  center;
+  // width: 25cqi;
 }
 
 .prices{
   display: flex;
+  // justify-content: space-between;
 }
 
 
@@ -222,6 +226,13 @@ input{
     margin-left: 20px !important;
   }
 }
+@media screen and (max-width:650px){
+  .img{
+    width: 93% !important;
+    height: 51cqi !important;
+    border-radius: 0px !important;
+  }
+}
 @media screen and (max-width:505px){
   .individual{
     margin-left: 0px !important;
@@ -236,14 +247,14 @@ input{
     margin-left: 0px !important;
   }
   .img{
-    width: 95cqi;
-    height: 108cqi;
+  width: 99% !important;
+  height: 56cqi !important;
   }
 }
 @media screen and (min-width:1110px){
   .img{
-    width: 33cqi !important;
-    height: 37cqi !important;
+    width: 65cqi !important;
+  height: 36cqi !important;
   }
 }
 // yy
