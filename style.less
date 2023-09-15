@@ -17,7 +17,7 @@ input{
 }
 .pursuit{
 
-  margin-top: 30px;
+  margin-top: 31px;
   position: sticky;
   top: 0;
   background: #870505cb;
@@ -82,6 +82,13 @@ input{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 13px;
+    a{
+      display: flex;
+      align-items: center;
+      svg{
+        margin-right: 3px;
+      }
+    }
     a:nth-child(1){
       color: #6246ea;
       font-size: 18px;
@@ -107,7 +114,7 @@ input{
   margin: auto;
   width: 65cqi !important;
   height: 36cqi !important;
-  border-radius: 10px;
+  border-radius: 10px;  
 }
 
 
@@ -160,6 +167,7 @@ input{
   text-align:  center;
   // width: 45cqi;
   padding-bottom: 29px;
+  width: 50%;
 }
 
 
@@ -171,6 +179,7 @@ input{
   border-radius: 10px;
   text-align:  center;
   // width: 25cqi;
+  width: 50%;
 }
 
 .prices{
@@ -213,6 +222,12 @@ input{
 @media screen and (max-width:700px){
   .prices{
     flex-direction: column;
+    .individual{
+      width: auto;
+    }
+    .group{
+      width: auto;
+    }
   }
 }
 @media screen and (max-width:470px){
@@ -254,8 +269,8 @@ input{
 }
 @media screen and (min-width:1110px){
   .img{
-    width: 65cqi !important;
-  height: 36cqi !important;
+    width: 52cqi !important;
+    height: 29cqi !important;
   }
 }
 // yy
